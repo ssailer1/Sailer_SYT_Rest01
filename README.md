@@ -32,9 +32,9 @@ Dient in dem fall dazu, wenn man den link "/warehouse/002/data" aufruft, dass ma
 ---
 
 ```bash
-gradle clean
+gradle clean bootRun
 ```
 
-> **removes the buildDir folder, thus cleaning everything including leftovers from previous builds which are no longer relevant**
+> **removes the buildDir folder, thus cleaning everything including leftovers from previous builds which are no longer relevant and executes it**
 
 ---
